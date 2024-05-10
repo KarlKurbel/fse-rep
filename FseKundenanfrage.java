@@ -128,6 +128,8 @@ catch (Exception e) {System.out.println(e);}
     private void btnSpeichernMouseClicked(java.awt.event.MouseEvent evt) 
         throws SQLException, ClassNotFoundException  
     {
+    // nur eine Dummy-Aenderung fuer Rep-Test
+        
         KdAnfPos position = new KdAnfPos();
         KundenAnfrage kdAnf = new KundenAnfrage();
         
